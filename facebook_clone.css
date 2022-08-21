@@ -14,6 +14,7 @@ body{
 
 #container{
     display: flex;
+    flex-direction: column;
 }
 
 #recent-logins{
@@ -227,3 +228,11 @@ footer{
     list-style: 20px;
 
 }
+
+/* @media screen and (max-width: 507px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+} */
